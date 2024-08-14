@@ -3,7 +3,6 @@ body {
 }
 
 .card-list{
-  /* width: 90%; */
   padding: 15px;
 }
 
@@ -51,7 +50,7 @@ body {
 
 .card .front{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: clamp(10px,8vw,25px);
+  font-size: clamp(15px,2vw,25px);
   font-weight: 500;
 }
 .card .back {
@@ -60,19 +59,19 @@ body {
   font-weight: bold;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
-  font-size: clamp(20px,8vw,30px);
+  font-size: clamp(20px,2vw,30px);
   
 }
 
 .flashcard-options {
   margin-top: 20px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .flashcard-option {
   margin-top: 1rem;
   color: black;
-  font-size: clamp(10px,8vw,20px);
+  font-size: clamp(15px,2vw,20px);
 }
 
 .flashcard-option:first-child {
